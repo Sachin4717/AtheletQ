@@ -2,54 +2,55 @@
 
 AthleteQ is a real-time AI tool that helps athletes, coaches, and enthusiasts analyze training videos and improve performance through intelligent feedback and motion insights.
 
-🚀 Run Locally
+# 🏃‍♂️ AtheleteQ
 
-**Prerequisites**
+**Tagline:** Interactive front-end for athlete quizzes and performance visualization using webcam input (Vite + TypeScript).
 
-* Node.js (v18+ recommended)
-* npm (comes with Node.js)
+---
 
-**Steps to Run**
+## 🎯 Overview
 
-1. **Install dependencies**
+**AtheleteQ** is a **web-based front-end application** that helps analyze and visualize athlete performance through interactive quizzes and webcam-based input.  
+It’s built with **Vite + TypeScript** and uses a **mock API service** for simulating data flow. The app provides real-time performance dashboards and visual analytics using the **Victory** chart library.
 
-   ```bash
-   npm install
-   ```
+Unlike traditional IoT-based systems, AtheleteQ uses only the **built-in webcam** for capturing activity — no external hardware or sensors are required.
 
-2. **Set up environment variables**
+---
 
-   * Create a `.env.local` file in the root folder.
-   * Add your API key:
+## ⚙️ Features
 
-     ```bash
-     GEMINI_API_KEY=your_api_key_here
-     ```
+- 🖥️ **Frontend:** Built with **Vite + TypeScript**
+- 🎥 **Webcam-based input:** Uses browser webcam to capture or analyze athlete activity
+- 📊 **Data visualization:** Interactive performance dashboards using **Victory.js**
+- 🔄 **Mock API service:** (`services/mockApiService.ts`) simulates backend data
+- 🎬 **Demo/reference videos:** Stored in `public/videos/`
+- 🚀 **Modular design:** Easy to integrate with a backend or AI motion analysis later
 
-3. **Start the development server**
+---
 
-   ```bash
-   npm run dev
-   ```
+## 🧠 Architecture Overview
 
-4. **Open the app**
+## text
+User + Webcam
+       ↓
+Frontend (Vite + TypeScript)
+       ↓
+Mock API Service (Data Simulation)
+       ↓
+Data Visualization (Victory Charts)
+       ↓
+Dashboard / Results Display
 
-   * Visit [http://localhost:5173](http://localhost:5173) in your browser.
+## 🚀 Quick Start
+# 1️⃣ Clone this repository
+git clone https://github.com/YOUR_USERNAME/AtheleteQ.git
+cd AtheleteQ
 
-💡 Features
+# 2️⃣ Install dependencies
+npm install
 
-* Upload or record short training videos
-* Compare with reference movements
-* Get AI-based feedback on posture and motion
-* Real-time analysis powered by web-based AI models
+# 3️⃣ Start the development server
+npm run dev
 
-🧠 Tech Stack
-
-* **React + TypeScript (Vite)** — Frontend framework
-* **MediaPipe** — Pose estimation
-* **OpenCV.js** — Video processing
-* **Gemini API** — Insight generation
-
-🏁 Project Goal
-
-AthleteQ helps athletes understand their form and technique instantly, promoting **data-driven performance improvement** using accessible browser-based AI.
+# 4️⃣ Open the app
+# Visit the link shown in your terminal (usually http://localhost:3000)
