@@ -39,7 +39,7 @@ Dashboard / Results Display
 
 ## 🚀 Quick Start
 # 1️⃣ Clone this repository
-git clone https://github.com/YOUR_USERNAME/AtheleteQ.git
+git clone https://github.com/Sachin4717/AtheleteQ.git
 cd AtheleteQ
 
 # 2️⃣ Install dependencies
