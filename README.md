@@ -1,7 +1,3 @@
-🏃‍♂️ AthleteQ — AI-Powered Sports Performance Analyzer
-
-AthleteQ is a real-time AI tool that helps athletes, coaches, and enthusiasts analyze training videos and improve performance through intelligent feedback and motion insights.
-
 # 🏃‍♂️ AtheleteQ
 
 **Tagline:** Interactive front-end for athlete quizzes and performance visualization using webcam input (Vite + TypeScript).
