@@ -1,4 +1,4 @@
-# 🏃‍♂️ AtheleteQ
+# 🏃‍♂️ AtheletQ
 
 **Tagline:** Interactive front-end for athlete quizzes and performance visualization using webcam input (Vite + TypeScript).
 
@@ -39,10 +39,11 @@ Dashboard / Results Display
 
 ## 🚀 Quick Start
 # 1️⃣ Clone this repository
-git clone https://github.com/Sachin4717/AtheleteQ.git
+git clone https://github.com/Sachin4717/AtheletQ.git
 cd AtheleteQ
 
 # 2️⃣ Install dependencies
+npm install
 npm install
 
 # 3️⃣ Start the development server
