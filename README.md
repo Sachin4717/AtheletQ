@@ -46,7 +46,7 @@ AthleteQ is a real-time AI tool that helps athletes, coaches, and enthusiasts an
 🧠 Tech Stack
 
 * **React + TypeScript (Vite)** — Frontend framework
-* **TensorFlow.js / MediaPipe** — Pose estimation
+* **MediaPipe** — Pose estimation
 * **OpenCV.js** — Video processing
 * **Gemini API** — Insight generation
 
