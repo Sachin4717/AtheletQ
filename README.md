@@ -1,17 +1,55 @@
+🏃‍♂️ AthleteQ — AI-Powered Sports Performance Analyzer
 
-# Run and deploy your AI Studio app
+AthleteQ is a real-time AI tool that helps athletes, coaches, and enthusiasts analyze training videos and improve performance through intelligent feedback and motion insights.
 
-This contains everything you need to run your app locally.
+🚀 Run Locally
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+**Prerequisites**
 
-## Run Locally
+* Node.js (v18+ recommended)
+* npm (comes with Node.js)
 
-**Prerequisites:**  Node.js
+**Steps to Run**
 
+1. **Install dependencies**
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+
+2. **Set up environment variables**
+
+   * Create a `.env.local` file in the root folder.
+   * Add your API key:
+
+     ```bash
+     GEMINI_API_KEY=your_api_key_here
+     ```
+
+3. **Start the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open the app**
+
+   * Visit [http://localhost:5173](http://localhost:5173) in your browser.
+
+💡 Features
+
+* Upload or record short training videos
+* Compare with reference movements
+* Get AI-based feedback on posture and motion
+* Real-time analysis powered by web-based AI models
+
+🧠 Tech Stack
+
+* **React + TypeScript (Vite)** — Frontend framework
+* **TensorFlow.js / MediaPipe** — Pose estimation
+* **OpenCV.js** — Video processing
+* **Gemini API** — Insight generation
+
+🏁 Project Goal
+
+AthleteQ helps athletes understand their form and technique instantly, promoting **data-driven performance improvement** using accessible browser-based AI.
