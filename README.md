@@ -2,16 +2,12 @@
 
 **Tagline:** Interactive front-end for athlete quizzes and performance visualization using webcam input (Vite + TypeScript).
 
----
-
 ## 🎯 Overview
 
-**AtheleteQ** is a **web-based front-end application** that helps analyze and visualize athlete performance through interactive quizzes and webcam-based input.  
+**AtheletQ** is a **web-based front-end application** that helps analyze and visualize athlete performance through interactive quizzes and webcam-based input.  
 It’s built with **Vite + TypeScript** and uses a **mock API service** for simulating data flow. The app provides real-time performance dashboards and visual analytics using the **Victory** chart library.
 
-Unlike traditional IoT-based systems, AtheleteQ uses only the **built-in webcam** for capturing activity — no external hardware or sensors are required.
-
----
+Unlike traditional IoT-based systems, AtheletQ uses only the **built-in webcam** for capturing activity — no external hardware or sensors are required.
 
 ## ⚙️ Features
 
@@ -40,11 +36,11 @@ Dashboard / Results Display
 ## 🚀 Quick Start
 # 1️⃣ Clone this repository
 git clone https://github.com/Sachin4717/AtheletQ.git
-cd AtheleteQ
+cd AtheletQ
 
 # 2️⃣ Install dependencies
 npm install
-npm install
+npm i
 
 # 3️⃣ Start the development server
 npm run dev
